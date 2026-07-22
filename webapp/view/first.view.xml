@@ -5,7 +5,7 @@
     <Page title="UserDetails">
     <Content>
 
-    <Label text = "Name" />
+    <Label text = "Name" design="Standard" />
     <Input id = "nameInput" placeholder = "Enter name" />
     <Label text = "Email" />
     <Input id = "emailInput" placeholder = "Enter email" />

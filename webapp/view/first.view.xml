@@ -1,0 +1,18 @@
+<mvc:View controllerName="simpleform2.controller.first"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    
+    <Page title="UserDetails">
+    <Content>
+
+    <Label text = "Name" />
+    <Input id = "nameInput" placeholder = "Enter name" />
+    <Label text = "Email" />
+    <Input id = "emailInput" placeholder = "Enter email" />
+
+    <Button text = "Submit" press = "onSubmit" />
+    <Button text= "Cancel" press = "onCancel" />
+
+     </Content>
+    </Page>
+</mvc:View>
